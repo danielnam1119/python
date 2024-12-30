@@ -1,10 +1,8 @@
-car=int(input())
-for i in range(car):
-    total=0
-    price=int(input())
-    opt=int(input())
-    for j in range(opt):
-        a, b=map(int, input().split())
-        total += a*b
-    total += price
-    print(total)
+t=int(input())
+for i in range(t):
+    s=int(input())
+    n=int(input())
+    for j in range(n):
+        q, p=map(int, input().split())
+        s=s+(q*p)
+    print(s)
